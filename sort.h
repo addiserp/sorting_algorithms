@@ -17,11 +17,15 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+void qs(int *array, size_t first, size_t last, int size);
+int lomuto_partition(int *array, size_t first, size_t last, size_t size);
+void swap(int *array, size_t item1, size_t item2);
 void selection_sort(int *array, size_t size);
 void print_list(const listint_t *list);
 void insertion_sort_list(listint_t **list);
 listint_t *swap_node(listint_t *node, listint_t **list);
 void print_array(const int *array, size_t size);
 void bubble_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
 
 #endif

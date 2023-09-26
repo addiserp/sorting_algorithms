@@ -1,7 +1,7 @@
 #include "sort.h"
 /**
  * insertion_sort_list - using the Insertion sort algorithm
- * @list: To sort the dobule linked list 
+ * @list: To sort the dobule linked list
  */
 
 void insertion_sort_list(listint_t **list)

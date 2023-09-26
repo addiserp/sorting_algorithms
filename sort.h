@@ -17,6 +17,13 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+/*enum bool - Enumeration of boolean values*/
+typedef enum bool
+{
+    false = 0,
+    true
+} bool;
+
 void qs(int *array, size_t first, size_t last, int size);
 int lomuto_partition(int *array, size_t first, size_t last, size_t size);
 void swap(int *array, size_t item1, size_t item2);

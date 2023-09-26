@@ -30,7 +30,8 @@ typedef enum bool
 } bool;
 
 void qs(int *array, size_t first, size_t last, int size);
-int lomuto_partition(int *array, size_t first, size_t last, size_t size);
+int lomuto_partition(int *array, size_t size, int left, int right);
+void lomuto_sort(int *array, size_t size, int left, int right);
 void swap(int *array, size_t item1, size_t item2);
 void selection_sort(int *array, size_t size);
 void print_list(const listint_t *list);

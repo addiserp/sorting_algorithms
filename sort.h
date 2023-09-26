@@ -20,8 +20,8 @@ typedef struct listint_s
 /*enum bool - Enumeration of boolean values*/
 typedef enum bool
 {
-    false = 0,
-    true
+	false = 0,
+	true
 } bool;
 
 void qs(int *array, size_t first, size_t last, int size);

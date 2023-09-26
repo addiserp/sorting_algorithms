@@ -4,8 +4,8 @@
  * using the Selection sort algorithm
  * @array: A list with numbers
  * @size: A size of the array
-
  */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t a, index;
